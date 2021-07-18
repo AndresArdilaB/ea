@@ -53,7 +53,7 @@ function App() {
       <br />
       <br />
       <TextField
-        placeHolder="Type the sequence delimited by comma and press enter"
+        placeHolder="Type the numbers e.g.: 1, 2, 6, 3"
         onResult={setResult}
       />
       <br />
