@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+ol {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+code {
+  color: #6b7486;
+  font-size: 14px;
+}
+
 .App-header {
   background-color: #fff;
   height: 60px;
@@ -10,9 +26,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #282c34;
+  color: #000;
 }
 
 .App-link {
-  color: #282c34;
+  color: #000;
 }

@@ -6,7 +6,8 @@ const callApi = async (str: string): Promise<Res> => {
     const response = await fetch(`https://nesspo.pythonanywhere.com/api/find/index?str=${str}`);
     return await response.json();
   } catch (error) {
-    throw console.error(error);
+    alert('The typed data are wrong')
+    throw console.error('The typed data are wrong');
   }
 
 }
